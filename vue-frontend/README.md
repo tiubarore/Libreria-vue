@@ -10,7 +10,7 @@ cd backend-express
 npm i
 node server
 
-#table books:
+#table books (mysql)
 create table books (
 id INT PRIMARY KEY,
 title CHAR(200) NOT NULL,

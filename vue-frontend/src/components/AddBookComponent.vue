@@ -125,7 +125,7 @@ const addBook = async () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ title: title.value, author: author.value }),
+      body: JSON.stringify({ title: title.value, author: author.value, isAvailable: true }),
     })
 
     if (!response.ok) throw new Error(`Errore server: ${response.status}`)
