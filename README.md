@@ -19,3 +19,8 @@ isAvailable BOOLEAN DEFAULT TRUE,
 borrowerName CHAR(100) NOT NULL,
 loanDate DATE
 )
+
+da fare: 
+navbar con link, 
+pagina dei libri,
+eliminazione, prestito e ritorno del prestito 
